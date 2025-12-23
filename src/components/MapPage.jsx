@@ -399,7 +399,7 @@ const MapPage = ({ completedQuizzes, onCompleteQuiz, onReachGoal }) => {
         transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
       >
           <ChristmasBauble
-              src="/images/car2.jpg"
+              src={`${import.meta.env.BASE_URL}images/car2.jpg`}
               size={110}
               ringColor="#0f766e"
               ribbonColor="#991b1b"
@@ -413,7 +413,7 @@ const MapPage = ({ completedQuizzes, onCompleteQuiz, onReachGoal }) => {
             transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
         >
             <ChristmasBauble
-                src="/images/Meme2.jpg"
+                src={`${import.meta.env.BASE_URL}images/Meme2.jpg`}
                 size={110}
                 ringColor="#0f766e"
                 ribbonColor="#991b1b"
@@ -428,7 +428,7 @@ const MapPage = ({ completedQuizzes, onCompleteQuiz, onReachGoal }) => {
             transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
         >
             <ChristmasBauble
-                src="/images/Meme1.jpg"
+                src={`${import.meta.env.BASE_URL}images/Meme1.jpg`}
                 size={110}
                 ringColor="#0f766e"
                 ribbonColor="#991b1b"
@@ -488,8 +488,8 @@ const MapPage = ({ completedQuizzes, onCompleteQuiz, onReachGoal }) => {
       {/* Intro Animation Modal */}
       <AnimatePresence>
         {isKissing && <IntroAnimation
-            leftSrc="/images/Subject.png"
-            rightSrc="/images/Subject 2.png"
+            leftSrc={`${import.meta.env.BASE_URL}images/Subject.png`}
+            rightSrc={`${import.meta.env.BASE_URL}images/Subject 2.png`}
             duration={1.8}
         />}
       </AnimatePresence>

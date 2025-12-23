@@ -190,7 +190,7 @@ const GoalPage = () => {
                 <img
                     alt="Floating kitten with balloons"
                     className="w-full drop-shadow-lg rounded-2xl"
-                    src="/images/Meme3.JPG"
+                    src={`${import.meta.env.BASE_URL}images/Meme3.JPG`}
                     loading="lazy"
                     width="160"
                     height="160"
@@ -205,7 +205,7 @@ const GoalPage = () => {
                 <img
                     alt="Happy kitten with a party hat"
                     className="w-full drop-shadow-lg rounded-2xl"
-                    src="/images/Meme4.JPG"
+                    src={`${import.meta.env.BASE_URL}images/Meme4.JPG`}
                     loading="lazy"
                     width="160"
                     height="160"
@@ -220,7 +220,7 @@ const GoalPage = () => {
                 <img
                     alt="Two kittens hugging"
                     className="w-full drop-shadow-lg rounded-2xl"
-                    src="/images/Meme3.JPG"
+                    src={`${import.meta.env.BASE_URL}images/Meme3.JPG`}
                     loading="lazy"
                     width="144"
                     height="144"
@@ -308,7 +308,7 @@ const GoalPage = () => {
                                 initial={{ opacity: 0, y: 12 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ delay: 0.1 }}
-                                className="font-serif-art text-5xl md:text-6xl text-gray-900 mb-3 drop-shadow-sm"
+                                className="font-serif-art text-5xl md:text-6xl text-red-700 mb-3 drop-shadow-sm"
                             >
                                 But now to ur real present
                             </motion.h1>
@@ -318,7 +318,7 @@ const GoalPage = () => {
                                 initial={{ opacity: 0 }}
                                 animate={{ opacity: 1 }}
                                 transition={{ delay: 0.25 }}
-                                className="font-hand text-2xl md:text-[28px] text-gray-700 leading-relaxed mb-7"
+                                className="font-hand text-2xl md:text-[28px] text-green-700 leading-relaxed mb-7"
                             >
                                 I dont know when ur free but i would sponsor ourselfs
                                 <br />
@@ -332,7 +332,7 @@ const GoalPage = () => {
                             <motion.div>
 
                                 <RetroTV
-                                    src="public/Images/Paar_Wellness1.jpg"
+                                    src={`${import.meta.env.BASE_URL}images/Paar_Wellness1.jpg`}
                                     width={380}
                                     aspect="4/3"
                                     scanlines
