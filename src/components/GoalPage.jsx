@@ -60,21 +60,21 @@ const GoalPage = () => {
     // --- Bauble slideshow ---
     const slideshowImages = useMemo(
         () => [
-            `${import.meta.env.BASE_URL}images/Sop1.jpg`,
-            `${import.meta.env.BASE_URL}images/Sop2.png`,
-            `${import.meta.env.BASE_URL}images/Sop3.png`,
-            `${import.meta.env.BASE_URL}images/dia1.jpg`,
-            `${import.meta.env.BASE_URL}images/dia2.jpg`,
-            `${import.meta.env.BASE_URL}images/dia3.jpg`,
-            `${import.meta.env.BASE_URL}images/dia4.jpg`,
-            `${import.meta.env.BASE_URL}images/dia5.jpg`,
-            `${import.meta.env.BASE_URL}images/dia6.jpg`,
-            `${import.meta.env.BASE_URL}images/dia7.jpg`,
-            `${import.meta.env.BASE_URL}images/dia8.jpg`,
-            `${import.meta.env.BASE_URL}images/dia9.jpg`,
-            `${import.meta.env.BASE_URL}images/dia10.png`,
-            `${import.meta.env.BASE_URL}images/dia11.jpg`,
-            `${import.meta.env.BASE_URL}images/dia12.jpg`,
+            `${import.meta.env.BASE_URL}images/Sop1.JPG`,
+            `${import.meta.env.BASE_URL}images/Sop2.PNG`,
+            `${import.meta.env.BASE_URL}images/Sop3.PNG`,
+            `${import.meta.env.BASE_URL}images/dia1.JPG`,
+            `${import.meta.env.BASE_URL}images/dia2.JPG`,
+            `${import.meta.env.BASE_URL}images/dia3.JPG`,
+            `${import.meta.env.BASE_URL}images/dia4.JPG`,
+            `${import.meta.env.BASE_URL}images/dia5.JPG`,
+            `${import.meta.env.BASE_URL}images/dia6.JPG`,
+            `${import.meta.env.BASE_URL}images/dia7.JPG`,
+            `${import.meta.env.BASE_URL}images/dia8.JPG`,
+            `${import.meta.env.BASE_URL}images/dia9.JPG`,
+            `${import.meta.env.BASE_URL}images/dia10.PNG`,
+            `${import.meta.env.BASE_URL}images/dia11.JPG`,
+            `${import.meta.env.BASE_URL}images/dia12.JPG`,
             `${import.meta.env.BASE_URL}images/Meme5.JPG`,
             `${import.meta.env.BASE_URL}images/Meme6.JPG`,
             `${import.meta.env.BASE_URL}images/Smort1.JPG`,
@@ -190,7 +190,7 @@ const GoalPage = () => {
                 <img
                     alt="Floating kitten with balloons"
                     className="w-full drop-shadow-lg rounded-2xl"
-                    src="../../public/images/Meme3.JPG"
+                    src="/images/Meme3.JPG"
                     loading="lazy"
                     width="160"
                     height="160"
@@ -205,7 +205,7 @@ const GoalPage = () => {
                 <img
                     alt="Happy kitten with a party hat"
                     className="w-full drop-shadow-lg rounded-2xl"
-                    src="../../public/images/Meme4.JPG"
+                    src="/images/Meme4.JPG"
                     loading="lazy"
                     width="160"
                     height="160"
@@ -220,7 +220,7 @@ const GoalPage = () => {
                 <img
                     alt="Two kittens hugging"
                     className="w-full drop-shadow-lg rounded-2xl"
-                    src="../../public/images/Meme3.JPG"
+                    src="/images/Meme3.JPG"
                     loading="lazy"
                     width="144"
                     height="144"
