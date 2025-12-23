@@ -247,7 +247,7 @@ export default defineConfig({
 		},
 		allowedHosts: true,
 	},
-    base: "/REPO_NAME/",
+    base: "/WeihnachtsCode/",
 	resolve: {
 		extensions: ['.jsx', '.js', '.tsx', '.ts', '.json', ],
 		alias: {
