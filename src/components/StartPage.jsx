@@ -67,7 +67,7 @@ const StartPage = ({ onStart }) => {
                 className="absolute bottom-0 left-[5%] w-40 md:w-56 z-10"
             >
                 <ChristmasBauble
-                    src="public/Images/Car1.jpg"
+                    src="/images/Car1.jpg"
                     size={180}
                 />
             </motion.div>
@@ -125,7 +125,7 @@ const StartPage = ({ onStart }) => {
                 >
 
                     <ChristmasBauble
-                        src="public/Images/Love1.png"
+                        src="/images/Love1.png"
                         size={220}
                         ringColor="#0f766e"
                         ribbonColor="#991b1b"
